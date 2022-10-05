@@ -1,0 +1,35 @@
+<testsuites>
+  <errors>0</errors>
+  <failures>0</failures>
+  <tests>4</tests>
+  <testsuite>
+    <name>full</name>
+    <tests>2</tests>
+    <skipped>0</skipped>
+    <errors>0</errors>
+    <failures>0</failures>
+    <testcase>
+      <name>descr</name>
+      <classname>vnsRedirectHealthGroup</classname>
+    </testcase>
+    <testcase>
+      <name>name</name>
+      <classname>vnsRedirectHealthGroup</classname>
+    </testcase>
+  </testsuite>
+  <testsuite>
+    <name>minimal</name>
+    <tests>2</tests>
+    <skipped>0</skipped>
+    <errors>0</errors>
+    <failures>0</failures>
+    <testcase>
+      <name>descr</name>
+      <classname>vnsRedirectHealthGroup</classname>
+    </testcase>
+    <testcase>
+      <name>name</name>
+      <classname>vnsRedirectHealthGroup</classname>
+    </testcase>
+  </testsuite>
+</testsuites>

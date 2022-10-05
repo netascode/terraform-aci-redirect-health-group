@@ -1,9 +1,8 @@
-resource "aci_rest_managed" "fvTenant" {
-  dn         = "uni/tn-${var.name}"
-  class_name = "fvTenant"
+resource "aci_rest_managed" "vnsRedirectHealthGroup" {
+  dn         = "uni/tn-${var.tenant}/svcCont/redirectHealthGroup-${var.name}"
+  class_name = "vnsRedirectHealthGroup"
   content = {
-    name      = var.name
-    nameAlias = var.alias
-    descr     = var.description
+    name  = var.name
+    descr = var.description
   }
 }
